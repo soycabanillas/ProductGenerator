@@ -397,5 +397,6 @@ paket-files/
 .fake/
 
 # JetBrains Rider
-.idea/
+.idea/**
+!.idea/.idea.ProductGenerator/.idea/runConfigurations/**
 *.sln.iml

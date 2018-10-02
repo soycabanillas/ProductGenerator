@@ -6,10 +6,3 @@ nuget FSharp.Core
 nuget Microsoft.OpenApi.Readers
 nuget Fake.DotNet
 
-/*
-group Build
-source https://www.nuget.org/api/v2
-
-nuget FAKE
-nuget Fake.DotNet
-*/
