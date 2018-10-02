@@ -380,6 +380,13 @@ FakesAssemblies/
 **/*.Server/ModelManifest.xml
 _Pvt_Extensions
 
+# ===================================================
+# Exclude F# project specific directories and files
+# ===================================================
+
+# NuGet Packages Directory
+packages/
+
 # Paket dependency manager
 paket-files/
 

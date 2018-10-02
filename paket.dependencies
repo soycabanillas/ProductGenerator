@@ -1,0 +1,15 @@
+generate_load_scripts: true
+source https://www.nuget.org/api/v2
+
+nuget Microsoft.NETCore.App
+nuget FSharp.Core
+nuget Microsoft.OpenApi.Readers
+nuget Fake.DotNet
+
+/*
+group Build
+source https://www.nuget.org/api/v2
+
+nuget FAKE
+nuget Fake.DotNet
+*/
